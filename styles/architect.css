@@ -29,6 +29,8 @@
     background-color:orange;
     border-radius:10px;
     border: none;
+    margin-bottom: 30px;
+    margin-top: 50px;
 }
 /* common css end */ 
 
@@ -57,7 +59,7 @@
 
 .banner{
     background-color: bisque;
-    height: 900px;
+    height: 1300px;
 }
 
 .brandlogo{
@@ -71,3 +73,24 @@
     text-align: center;
     margin-top: 100px;
 }
+
+.banner-image{
+    width: 100%;
+}
+
+.bannerinfo p{
+    margin-top: 30px;
+}
+
+/* responsive media query */
+
+ 
+@media screen and (max-width: 576px){
+
+    .navbar,.navlink{
+        display: flex;
+        flex-direction: column;}
+    
+}
+
+
